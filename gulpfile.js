@@ -11,3 +11,12 @@ function compilaSass() {
 }
 
 gulp.task('sass', compilaSass);
+
+// Função WATCH
+function watch() {
+  gulp.watch('css/scss/*.scss', compilaSass);
+}
+
+gulp.task('watch', watch);
+
+gulp.task('default', gulp.parallel('watch', 'sass'));

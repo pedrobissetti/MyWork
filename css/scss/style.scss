@@ -8,12 +8,16 @@ body, h1, h2, ul, li, a {
   padding: 0;
 }
 
-ul {
+ul, li {
   list-style: none;
 }
 
 img {
   display: block;
+}
+
+a {
+  text-decoration: none;
 }
 
 .menu--header {
@@ -53,4 +57,15 @@ img {
               0px 0px 0px 60px $cor-title,
               0px 0px 0px 70px $cor-background;
 
+}
+
+.menu--nav ul li a {
+  font-size: 0.875em;
+  color: $cor-text;
+}
+
+.btn--cv {
+  background: $cor-background;
+  color: $cor-title;
+  border: 2px solid $cor-background;
 }

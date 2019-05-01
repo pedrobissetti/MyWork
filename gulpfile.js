@@ -1,6 +1,7 @@
 const gulp = require('gulp');
 const sass = require('gulp-sass');
 
+// Função SASS
 function compilaSass() {
   return gulp
     .src('css/scss/**/*.scss')

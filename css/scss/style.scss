@@ -71,6 +71,7 @@ a {
   width: 70%;
   padding: 10px;
   box-sizing: border-box;
+  border-bottom: 10px solid $cor-background;
 }
 
 .menu--nav {
@@ -110,10 +111,6 @@ a {
   color: $cor-text;
 }
 
-.img--logo {
-  width: 3%;
-}
-
 #btn--down {
   display: flex;
   width: 100%;
@@ -125,10 +122,62 @@ a {
   color: $cor-title;
 }
 
+.img--logo {
+  width: 100%;
+}
+
+.social--media {
+  display: flex;
+  justify-content: flex-end;
+  flex-flow: column nowrap;
+  position: absolute;
+  width: 30px;
+  right: 10px;
+  top: 20%;
+}
+
 .social--media p {
-  text-align: right;
+  white-space: nowrap;
+  transform: rotate(90deg);
+  margin-bottom: 150px;
+}
+
+.social--media p::after {
+  display: inline-block;
+  content: '';
+  width: 200%;
+  height: 2px;
+  background: $cor-text;
+  margin-bottom: 3px;
 }
 
 .social--media a {
-  padding: 10px;
+  margin: 10px 0;
 }
+
+.my--intro {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  color: $cor-text;
+}
+
+.my--intro::before {
+  content: '';
+  background: url('../../img/playbutton.png') center center/cover no-repeat;
+  width: 50px;
+  margin-left: 300px;
+}
+
+.produtos--work {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.work--produtos {
+  width: 10%;
+  text-align: center;
+}
+

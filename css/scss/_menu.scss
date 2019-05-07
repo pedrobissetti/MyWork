@@ -1,0 +1,126 @@
+.menu--header {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  width: 30%;
+  height: 600px;
+  padding: 20px;
+  background: $cor-background;
+  box-sizing: border-box;
+  &__title {
+    width: 100%;
+    text-align: center;
+    color: $cor-title;
+    font-size: $font-normal;
+  }
+  &__img {
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    right: -50px;
+    top: 30%;
+    box-shadow: 0px 0px 0px 10px $cor-background,
+                0px 0px 0px 60px $cor-title,
+                0px 0px 0px 70px $cor-background;
+  }
+  p {
+    width: 100%;
+    font-size: $font-little;
+    color: $cor-title;
+    position: relative;
+    bottom: -40%;
+    text-align: center;
+  }
+}
+
+.menu--main {
+  width: 70%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-bottom: 10px solid $cor-background;
+  &__nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20%;
+    padding-bottom: 150px;
+  }
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    &--item {
+      font-size: $font-little;
+      a {
+        margin-right: 30px;
+        &:visited {
+          color: $cor-text;
+        }
+        &#btn--down {
+          display: flex;
+          width: 100%;
+          height: 35px;
+          justify-content: center;
+          align-items: center;
+          background: $cor-background;
+          border-radius: 18px;
+          color: $cor-title;
+        }
+      }
+    }
+  }
+  &__title {
+    font-size: $font-x-high;
+    text-align: center;
+    
+    span {
+      color: $cor-background;
+    }
+  }
+  &__subtitle {
+    font-size: $font-little;
+    text-align: center;
+    color: $cor-text;
+  }
+  &__intro {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    color: $cor-text;
+    &::before {
+      content: '';
+      background: url('../../img/playbutton.png') center center/cover no-repeat;
+      width: 50px;
+      margin-left: 300px;
+    }
+  }
+}
+
+.social--media {
+  display: flex;
+  justify-content: flex-end;
+  flex-flow: column nowrap;
+  position: absolute;
+  width: 30px;
+  right: 10px;
+  top: 20%;
+  p {
+    white-space: nowrap;
+    transform: rotate(90deg);
+    margin-bottom: 150px;
+    &::after {
+      display: inline-block;
+      content: '';
+      width: 200%;
+      height: 2px;
+      background: $cor-text;
+      margin-bottom: 3px;
+    }
+  }
+  &__link {
+    margin: 10px 0;
+  }
+  &__logo {
+    width: 100%;
+  }
+}

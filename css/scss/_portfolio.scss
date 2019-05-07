@@ -1,0 +1,27 @@
+.portfolio--main {
+  display: flex;
+  flex-flow: column nowrap;
+  max-width: 1000px;
+  margin: 0 auto;
+  &__title {
+    text-align: center;
+    font-size: $font-normal;
+    color: $cor-text;
+  }
+  p {
+    color: $cinza;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  &__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  &__logo {
+    width: 300px;
+  }
+  &__div {
+    margin: 10px 0;
+  }
+}

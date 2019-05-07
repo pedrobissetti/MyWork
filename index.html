@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=[device-width], initial-scale=1.0">
@@ -12,49 +11,49 @@
 <body>
   <header class="container">
     <div class="menu--header">
-      <h1 class="header--title">Portfolio</h1>
-      <img class="person--img" src="img/person.jpg">
+      <h1 class="menu--header__title">Portfolio</h1>
+      <img class="menu--header__img" src="img/person.jpg">
       <p>BE CREATIVE</p>
     </div>
     <div class="menu--main">
-      <nav class="menu--nav">
-        <ul class="nav--mobile">
-          <li><a href="#">ABOUT ME</a></li>
-          <li><a href="#">PORTFOLIO</a></li>
-          <li><a href="#" id="btn--down">DOWNLOAD CV</a></li>
+      <nav class="menu--main__nav">
+        <ul class="menu--main__list">
+          <li class="menu--main__list--item"><a href="#">ABOUT ME</a></li>
+          <li class="menu--main__list--item"><a href="#">PORTFOLIO</a></li>
+          <li class="menu--main__list--item"><a href="#" id="btn--down">DOWNLOAD CV</a></li>
         </ul>
       </nav>
-      <h1 class="menu--title">MY <span class="text--light">WORK</span></h1>
-      <h2>Web & visual Designer</h2>
+      <h1 class="menu--main__title">MY <span>WORK</span></h1>
+      <h2 class="menu--main__subtitle">Web & visual Designer</h2>
       <div class="social--media">
         <p>FOLLOW ME ON</p>
-        <a href="https://facebook.com/" class="link--media"><img src="img/facebook1.png" alt="Facebook Page" class="img--logo"></a>
-        <a href="https://twitter.com/" class="link--media"><img src="img/twitter1.png" alt="Twitter Page" class="img--logo"></a>
-        <a href="https://linkedin.com/" class="link--media"><img src="img/linkedin1.png" alt="Linkedin Page" class="img--logo"></a>
+        <a href="https://facebook.com/" class="social--media__link"><img src="img/facebook1.png" alt="Facebook Page" class="social--media__logo"></a>
+        <a href="https://twitter.com/" class="social--media__link"><img src="img/twitter1.png" alt="Twitter Page" class="social--media__logo"></a>
+        <a href="https://linkedin.com/" class="social--media__link"><img src="img/linkedin1.png" alt="Linkedin Page" class="social--media__logo"></a>
       </div>
-      <a href="#" class="my--intro">MY INTRO</a>
+      <a href="#" class="menu--main__intro">MY INTRO</a>
     </div>
   </header>
 
-  <section class="container">
+  <section class="container produtos">
     <div class="produtos--work">
-      <ul>
-        <li>
-          <img src="img/clock.png" alt="Clock">
+      <ul class="produtos--work__list">
+        <li class="produtos--work--item">
+          <img src="img/clock.png" class="produtos--work__img" alt="Clock">
           <h3>On Time</h3>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur veniam nisi</p>
           <a href="#">Learn More</a>
         </li>
 
-        <li>
-          <img src="img/customer.png" alt="Customer">
+        <li class="produtos--work--item">
+          <img src="img/customer.png" class="produtos--work__img" alt="Customer">
           <h3>Clean Work</h3>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur veniam nisi</p>
           <a href="#">Learn More</a>
         </li>
 
-        <li>
-          <img src="img/taskdone.png" alt="Task">
+        <li class="produtos--work--item">
+          <img src="img/taskdone.png" class="produtos--work__img" alt="Task">
           <h3>Client Satisfaction</h3>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur veniam nisi</p>
           <a href="#">Learn More</a>
@@ -63,23 +62,25 @@
     </div>
   </section>
 
-  <section>
-    <div>
-      <h1>My Portfolio</h1>
+  <section class="container">
+    <div class="portfolio--main">
+      <h1 class="portfolio--main__title">My Portfolio</h1>
       <p>Web & App</p>
-      <div><img src="img/foto1.jpg" alt="Image 1"></div>
-      <div><img src="img/foto2.jpg" alt="Image 2"></div>
-      <div><img src="img/foto4.jpg" alt="Image 3"></div>
-      <div>
-        <h1>Portfolio</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro labore veritatis laborum provident culpa
-          pariatur voluptates itaque, eos, nisi, veniam id officia est natus soluta assumenda nesciunt reiciendis
-          eveniet? At.</p>
+      <div class="portfolio--main__content">
+        <div class="portfolio--main__div"><img src="img/foto1.jpg" class="portfolio--main__logo" alt="Image 1"></div>
+        <div class="portfolio--main__div"><img src="img/foto2.jpg" class="portfolio--main__logo" alt="Image 2"></div>
+        <div class="portfolio--main__div"><img src="img/foto4.jpg" class="portfolio--main__logo" alt="Image 3"></div>
+        <div class="portfolio--main__div">
+          <h1>Portfolio</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro labore veritatis laborum provident culpa
+            pariatur voluptates itaque, eos, nisi, veniam id officia est natus soluta assumenda nesciunt reiciendis
+            eveniet? At.</p>
+        </div>
+        <div class="portfolio--main__div"><img src="img/foto5.jpg" class="portfolio--main__logo" alt="Image 4"></div>
+        <div class="portfolio--main__div"><img src="img/foto6.jpg" class="portfolio--main__logo" alt="Image 5"></div>
+        <div class="portfolio--main__div"><img src="img/foto7.jpg" class="portfolio--main__logo" alt="Image 6"></div>
+        <div class="portfolio--main__div"><img src="img/foto1.jpg" class="portfolio--main__logo" alt="Image 7"></div>
       </div>
-      <div><img src="img/foto5.jpg" alt="Image 4"></div>
-      <div><img src="img/foto6.jpg" alt="Image 5"></div>
-      <div><img src="img/foto7.jpg" alt="Image 6"></div>
-      <div><img src="img/foto1.jpg" alt="Image 7"></div>
     </div>
   </section>
 

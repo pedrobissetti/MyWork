@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=[device-width], initial-scale=1.0">
@@ -27,9 +28,12 @@
       <h2 class="menu--main__subtitle">Web & visual Designer</h2>
       <div class="social--media">
         <p>FOLLOW ME ON</p>
-        <a href="https://facebook.com/" class="social--media__link"><img src="img/facebook1.png" alt="Facebook Page" class="social--media__logo"></a>
-        <a href="https://twitter.com/" class="social--media__link"><img src="img/twitter1.png" alt="Twitter Page" class="social--media__logo"></a>
-        <a href="https://linkedin.com/" class="social--media__link"><img src="img/linkedin1.png" alt="Linkedin Page" class="social--media__logo"></a>
+        <a href="https://facebook.com/" class="social--media__link"><img src="img/facebook1.png" alt="Facebook Page"
+            class="social--media__logo"></a>
+        <a href="https://twitter.com/" class="social--media__link"><img src="img/twitter1.png" alt="Twitter Page"
+            class="social--media__logo"></a>
+        <a href="https://linkedin.com/" class="social--media__link"><img src="img/linkedin1.png" alt="Linkedin Page"
+            class="social--media__logo"></a>
       </div>
       <a href="#" class="menu--main__intro">MY INTRO</a>
     </div>
@@ -71,7 +75,7 @@
         <div class="portfolio--main__div"><img src="img/foto2.jpg" class="portfolio--main__logo" alt="Image 2"></div>
         <div class="portfolio--main__div"><img src="img/foto4.jpg" class="portfolio--main__logo" alt="Image 3"></div>
         <div class="portfolio--main__div">
-          <h1>Portfolio</h1>
+          <h1 class="portfolio--main__div--title">Portfolio</h1>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro labore veritatis laborum provident culpa
             pariatur voluptates itaque, eos, nisi, veniam id officia est natus soluta assumenda nesciunt reiciendis
             eveniet? At.</p>
@@ -84,34 +88,67 @@
     </div>
   </section>
 
-  <section>
-    <div>
-      <h1>Valuable Testimonial</h1>
+  <section class="container testimonial">
+    <div class="testimonial--content">
+      <h1 class="testimonial--content__title">Valuable Testimonial</h1>
       <p>See People Say About Me</p>
     </div>
-  </section>
-
-  <section>
-    <div>
-      <h1>Want To Hire Me?</h1>
-      <p>If You Like My Work</p>
-      <input type="text" name="" id="" placeholder="Enter you message">
-      <button>Hire Me</button>
+    <div class="slicker--container">
+      <div>
+        <img src="img/person1.jpg" class="slicker--container__img" alt="Humano 1">
+        <h1 class="slicker--container__title">Milla Jovovich, Rússia</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo itaque reprehenderit vitae nesciunt
+          suscipit perspiciatis tempore, culpa earum pariatur necessitatibus consequuntur debitis natus facere quidem
+          quae laborum architecto eveniet dolorem?</p>
+      </div>
+      <div>
+        <img src="img/person2.jpg" class="slicker--container__img" alt="Humano 2">
+        <h1 class="slicker--container__title">Halle Berry, Estados Unidos</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus exercitationem voluptates impedit
+          veritatis, minima commodi modi sit sequi. Beatae alias labore non expedita qui iure earum odio officiis
+          necessitatibus aperiam.</p>
+      </div>
+      <div>
+        <img src="img/person3.jpg" class="slicker--container__img" alt="Humano 3">
+        <h1 class="slicker--container__title">Rowan Atkinson, Reino Unido</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate quisquam ullam, sit optio mollitia
+          dolores ex omnis obcaecati deleniti explicabo assumenda, modi libero non velit, facilis corrupti! Harum,
+          doloremque voluptates.</p>
+      </div>
     </div>
   </section>
 
-  <footer class="container">
-    <div>
-      <a href="#">Portfolio</a>
-      <ul>
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Download CV</a></li>
+  <section class="container news">
+    <div class="news--content">
+      <h1 class="news--content__title">Want To Hire Me?</h1>
+      <p>If You Like My Work</p>
+      <form class="newsletter-form">
+        <input type="text" name="" placeholder="Enter you message">
+        <button>Hire Me</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="container footer">
+    <div class="footer--content">
+      <h1 class="footer--content__title">Portfolio</h1>
+      <ul class="footer--content__list">
+        <li><a href="#" class="footer--content--item">About Me</a></li>
+        <li><a href="#" class="footer--content--item">Portfolio</a></li>
+        <li><a href="#" class="footer--content--item">Download CV</a></li>
       </ul>
-      <a href="#"><img src="img/facebook.png" alt="Facebook"></a>
-      <a href="#"><img src="img/twitter.png" alt="Twitter"></a>
-      <a href="#"><img src="img/linkedin.png" alt="Linkedin"></a>
+      <div class="social--media--footer">
+        <a href="#"><img src="img/facebook.png" class="social--media--footer__img" alt="Facebook"></a>
+        <a href="#"><img src="img/twitter.png" class="social--media--footer__img" alt="Twitter"></a>
+        <a href="#"><img src="img/linkedin.png" class="social--media--footer__img" alt="Linkedin"></a>
+      </div>
     </div>
   </footer>
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="./js/slick.min.js"></script>
+  <script type="text/javascript" src="./js/slicker.js"></script>
 </body>
+
 </html>

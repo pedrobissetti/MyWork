@@ -1,0 +1,31 @@
+.footer {
+  background: $cor-background;
+  width: 100%;
+  height: 100px;
+}
+
+.footer--content {
+  display: flex;
+  align-items: center;
+  margin: 0 100px;
+  &__title {
+    color: $cor-title;
+  }
+  &__list {
+    display: flex;
+    white-space: nowrap;
+    padding: 0 300px;
+  }
+  &--item {
+    color: #FFF;
+    padding: 20px;
+  }
+}
+
+.social--media--footer  {
+  display: flex;
+  &__img {
+    max-width: 30px;
+    padding: 0 10px;
+  }
+}

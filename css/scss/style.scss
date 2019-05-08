@@ -1,5 +1,13 @@
+// Gerais
+@import 'slick';
+@import 'slick-theme';
 @import 'variaveis-mixins';
 @import 'geral';
+
+// Partes
 @import 'menu';
 @import 'produtos';
 @import 'portfolio';
+@import 'slicker';
+@import 'news';
+@import 'footer';

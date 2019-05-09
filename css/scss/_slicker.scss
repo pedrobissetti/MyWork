@@ -2,17 +2,16 @@
   display: flex;
   justify-content: center;
   padding: 60px 0;
-}
-
-.testimonial--content {
-  &__title {
-    text-align: center;
-    font-size: $font-normal;
-    color: $cor-text;
-  }
-  p {
-    text-align: center;
-    color: $cinza;
+  &--content {
+    &__title {
+      text-align: center;
+      font-size: $font-normal;
+      color: $cor-text;
+    }
+    p {
+      text-align: center;
+      color: $cinza;
+    }
   }
 }
 

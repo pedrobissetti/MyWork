@@ -1,17 +1,16 @@
 .news {
   padding: 60px 0;
-}
-
-.news--content {
-  max-width: 1000px;
-  margin: 0 auto;
-  &__title {
-    text-align: center;
-    font-size: $font-normal;
-  }
-  p {
-    text-align: center;
-    color: $cinza;
+  &--content {
+    max-width: 1000px;
+    margin: 0 auto;
+    &__title {
+      text-align: center;
+      font-size: $font-normal;
+    }
+    p {
+      text-align: center;
+      color: $cinza;
+    }
   }
 }
 
@@ -21,6 +20,7 @@
     height: 44px;
     margin-top: 50px;
     outline: none;
+    padding: 0 5px;
   }
   button {
     position: relative;

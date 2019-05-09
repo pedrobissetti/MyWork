@@ -22,12 +22,13 @@
       }
     }
     @include d(s) {
-      margin: 0 20px;
+      margin: 0 30px;
       &__title {
         font-size: $font-normal;
       }
       &__list {
-        padding: 0 60px;
+        padding: 0 20px;
+        flex-grow: 1;
       }
     }
   }

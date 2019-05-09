@@ -6,6 +6,19 @@ $cinza: #a4a4a4;
 
 // Font-Size
 $font-little: 0.875em;
-$font-normal: 1.75em;
+$font-normal: 1.25em;
+$font-medium: 1.75em;
 $font-high: 2em;
 $font-x-high: 4em;
+
+// RESPONSIVO
+$s-device: 480px;
+$m-device: 760px;
+
+@mixin d($size) {
+  @if $size == s {
+    @media screen and (max-width: #{$m-device}) {
+      @content;
+    }
+  }
+}

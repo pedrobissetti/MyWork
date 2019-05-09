@@ -31,7 +31,21 @@
         align-items: center;
         color: $cor-title;
         border: 3px solid $cor-background;
+        &:hover {
+          color: $cor-text;
+        }
       }
+    }
+  }
+  @include d(s) {
+    &--work {
+      width: 100%;
+    }
+    h3 {
+      font-size: $font-little;
+    }
+    p {
+      font-size: $font-little;
     }
   }
 }

@@ -17,6 +17,18 @@
     &--item {
       color: #FFF;
       padding: 20px;
+      &:hover {
+        color: $cor-text;
+      }
+    }
+    @include d(s) {
+      margin: 0 20px;
+      &__title {
+        font-size: $font-normal;
+      }
+      &__list {
+        padding: 0 60px;
+      }
     }
   }
 }
@@ -26,5 +38,8 @@
   &__img {
     max-width: 30px;
     padding: 0 10px;
+  }
+  @include d(s) {
+    display: none;
   }
 }

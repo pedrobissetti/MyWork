@@ -5,7 +5,7 @@
   &--content {
     &__title {
       text-align: center;
-      font-size: $font-normal;
+      font-size: $font-medium;
       color: $cor-text;
     }
     p {
@@ -37,6 +37,12 @@
     text-align: center;
     font-size: $font-little;
     padding: 0 100px;
+  }
+  @include d(s) {
+    overflow: hidden;
+    .slick-dots {
+      bottom: 0;
+    }
   }
 }
 

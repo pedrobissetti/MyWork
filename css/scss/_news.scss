@@ -38,6 +38,9 @@
     }
   }
   @include d(s) {
+    input {
+      width: 150px;
+    }
     button {
       width: 100px;
       height: 48px;

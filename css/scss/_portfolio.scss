@@ -26,13 +26,22 @@
   &__div {
     margin: 10px 0;
     &:nth-child(4) {
-      width: 65%;
+      width: 63%;
       background: $cor-background;
       color: $cor-title;
       text-align: center;
     }
     &--title {
       margin-top: 100px;
+    }
+  }
+  @include d(s) {
+    .portfolio--main {
+      &__div {
+        &:nth-child(4) {
+          width: 73%;
+        }
+      }
     }
   }
 }
